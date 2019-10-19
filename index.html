@@ -6,29 +6,41 @@
   <title>FEConf 2019 font examples</title>
   <style>
     * { font-size: 16px; margin: 0; padding: 0; }
-    .content { padding: 50px; }
     ul, li { outline: none; list-style: none; }
     a:link, a:hover, a:visited, a:active { outline: none; text-decoration: none; }
+    .content { padding: 50px; }
+    .section { width: 100%; height: 100%; }
+    .section:not(:first-child) { margin-top: 30px;}
   </style>
 </head>
 <body>
   <div class="content">
-    <h2>Examples</h2>
-    <ul class="navbar">
-      <li><a href="examples/01_emoji_font.html">/examples/01_emoji_font.html</a></li>
-      <li><a href="examples/02_font_matrix.html">/examples/02_font_matrix.html</a></li>
-      <li><a href="examples/03_font_weight.html">/examples/03_font_weight.html</a></li>
-      <li><a href="examples/04_case1.html">/examples/04_case1.html</a></li>
-      <li><a href="examples/05_case2.html">/examples/05_case2.html</a></li>
-      <li><a href="examples/06_system-ui.html">/examples/06_system-ui.html</a></li>
-      <li><a href="examples/07_lang_attribute.html">/examples/07_lang_attribute.html</a></li>
-      <li><a href="examples/08_css_lang.html">/examples/08_css_lang.html</a></li>
-      <li><a href="examples/09_font-face.html">/examples/09_font-face.html</a></li>
-      <li><a href="examples/10_narrow_menu.html">/examples/10_narrow_menu.html</a></li>
-      <li><a href="examples/11_e2e_test_hidden.html">/examples/11_e2e_test_hidden.html</a></li>
-      <li><a href="examples/12_e2e_test_scroll.html">/examples/12_e2e_test_scroll.html</a></li>
-      <li><a href="examples/13_e2e_test_overflow.html">/examples/13_e2e_test_overflow.html</a></li>
-    </ul>
+    <div class="section">
+      <h2>Examples</h2>
+      <ul class="navbar">
+        <li><a href="examples/01_emoji_font.html">01_emoji_font.html</a></li>
+        <li><a href="examples/02_font_matrix.html">02_font_matrix.html</a></li>
+        <li><a href="examples/03_font_weight.html">03_font_weight.html</a></li>
+        <li><a href="examples/04_case1.html">04_case1.html</a></li>
+        <li><a href="examples/05_case2.html">05_case2.html</a></li>
+        <li><a href="examples/06_system-ui.html">06_system-ui.html</a></li>
+        <li><a href="examples/07_lang_attribute.html">07_lang_attribute.html</a></li>
+        <li><a href="examples/08_css_lang.html">08_css_lang.html</a></li>
+        <li><a href="examples/09_font-face.html">09_font-face.html</a></li>
+        <li><a href="examples/10_narrow_menu.html">10_narrow_menu.html</a></li>
+        <li><a href="examples/11_e2e_test_hidden.html">11_e2e_test_hidden.html</a></li>
+        <li><a href="examples/12_e2e_test_scroll.html">12_e2e_test_scroll.html</a></li>
+        <li><a href="examples/13_e2e_test_overflow.html">13_e2e_test_overflow.html</a></li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>E2E Tests</h2>
+      <ul class="navbar">
+        <li><a href="https://github.com/norux/feconf-font-example/blob/master/test/e2e/11_e2e_test_hidden.spec.js">11_e2e_test_hidden.spec.js</a></li>
+        <li><a href="https://github.com/norux/feconf-font-example/blob/master/test/e2e/12_e2e_test_scroll.spec.js">12_e2e_test_scroll.spec.js</a></li>
+        <li><a href="https://github.com/norux/feconf-font-example/blob/master/test/e2e/13_e2e_test_overflow.spec.js">13_e2e_test_overflow.spec.js</a></li>
+      </ul>
+    </div>
   </div>
 </body>
 </html>
