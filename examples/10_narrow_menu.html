@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,viewport-fit=cover">
+  <title>narrow menu</title>
+  <style>
+    * { font-family: sans-serif; margin: 0; padding: 0; }
+    .content { padding: 50px; }
+    .section { width: 200px; height: 100%; border: 1px solid #1d5cb0; padding: 5px; }
+    .section:not(:first-child) { margin-top: 30px;}
+    .section .narrow { display: inline-block; padding: 5px 3px; height: 20px; border: 1px solid #919191; overflow: hidden; text-align: center; }
+    h2 { margin-bottom: 10px; }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <div class="section">
+      <h2>ko</h2>
+      <div class="narrow" lang="ko">HOME</div>
+      <div class="narrow" lang="ko">PROFILE</div>
+      <div class="narrow" lang="ko">LOGOUT</div>
+    </div>
+    <div class="section">
+      <h2>ja</h2>
+      <div class="narrow" lang="ja">HOME</div>
+      <div class="narrow" lang="ja">PROFILE</div>
+      <div class="narrow" lang="ja">LOGOUT</div>
+    </div>
+  </div>
+</body>
+</html>

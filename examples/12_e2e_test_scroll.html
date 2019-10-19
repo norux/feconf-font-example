@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,viewport-fit=cover">
+  <title>e2e test scroll</title>
+  <style>
+    * { font-family: sans-serif; margin: 0; padding: 0; }
+    .content { padding: 50px; }
+    .section { width: 230px; height: 100%; border: 1px solid #1d5cb0; padding: 5px; }
+    .section:not(:first-child) { margin-top: 30px;}
+    .section .narrow { display: inline-block; padding: 4px 3px; line-height: 15px; height: 15px; border: 1px solid #919191; overflow: hidden; text-align: center; }
+    .section.hidden { height: 30px; overflow: scroll; }
+    h2 { margin-bottom: 10px; }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <div class="section hidden">
+      <div class="narrow">HOME</div>
+      <div class="narrow">PROFILE</div>
+      <div class="narrow">LOGOUT</div>
+    </div>
+  </div>
+</body>
+</html>
