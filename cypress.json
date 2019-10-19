@@ -1,4 +1,4 @@
 {
-  "baseUrl": "http://localhost:8080",
+  "baseUrl": "http://feconf2019.norux.me/examples",
   "integrationFolder": "test/e2e"
 }
